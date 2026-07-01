@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa JBL Tune 520BT</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="hero">
+
+        <span class="badge">
+            🎉 Rifa Oficial
+        </span>
+
+        <img src="img/jbl.png" class="produto" alt="JBL Tune 520BT">
+
+        <h1>JBL Tune 520BT</h1>
+
+        <p class="descricao">
+            Fone Bluetooth Original JBL
+        </p>
+
+        <div class="info">
+
+            <div class="card-info">
+
+                <span>🎟 Valor</span>
+
+                <strong>R$ 10,00</strong>
+
+            </div>
+
+            <div class="card-info">
+
+                <span>📦 Prêmio</span>
+
+                <strong>1 JBL Tune 520BT</strong>
+
+            </div>
+
+            <div class="card-info">
+
+                <span>🔢 Números</span>
+
+                <strong>500</strong>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="numeros-section">
+
+        <h2>Escolha seu número</h2>
+
+        <p>
+            Clique em um número disponível.
+        </p>
+
+        <div id="numeros" class="numeros">
+
+            <!-- Os 500 números serão criados pelo JavaScript -->
+
+        </div>
+
+        <div class="legenda">
+
+            <div>
+                <span class="cor disponivel"></span>
+                Disponível
+            </div>
+
+            <div>
+                <span class="cor reservado"></span>
+                Reservado
+            </div>
+
+            <div>
+                <span class="cor pago"></span>
+                Pago
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="selecao">
+
+        <h2>Seu número</h2>
+
+        <div id="numeroSelecionado" class="numero-escolhido">
+
+            Nenhum número selecionado
+
+        </div>
+
+        <button id="btnConfirmar">
+
+            Confirmar escolha
+
+        </button>
+
+    </section>
+
+    <section class="pix">
+
+        <h2>Pagamento via PIX</h2>
+
+        <img src="img/qrcode.png" alt="QR Code PIX" class="qrcode">
+
+        <p>
+
+            Escaneie o QR Code ou copie a chave.
+
+        </p>
+
+        <div class="pix-box">
+
+            <input
+                id="pix"
+                type="text"
+                value="SUA-CHAVE-PIX"
+                readonly>
+
+            <button onclick="copiarPix()">
+
+                Copiar
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="whatsapp">
+
+        <h2>Enviar comprovante</h2>
+
+        <p>
+
+            Após realizar o pagamento envie o comprovante para confirmar sua participação.
+
+        </p>
+
+        <button id="btnWhatsapp">
+
+            Enviar pelo WhatsApp
+
+        </button>
+
+    </section>
+
+    <section class="regulamento">
+
+        <h2>Regulamento</h2>
+
+        <ul>
+
+            <li>Cada número custa <strong>R$ 10,00</strong>.</li>
+
+            <li>O sorteio será realizado quando todos os números forem vendidos.</li>
+
+            <li>O pagamento garante a reserva do número somente após confirmação.</li>
+
+            <li>O prêmio será entregue ao ganhador sem custos.</li>
+
+        </ul>
+
+    </section>
+
+    <footer>
+
+        Boa sorte! 🍀
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
